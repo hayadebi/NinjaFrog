@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ground
+  - player
+  - wall
+  - obj
+  - event
+  - enemy
+  - untag
+  - water
+  - vlight
+  - e_bullet
+  - p_bullet
+  - '?'
+  - parea
+  - shadow
+  - bero
+  - spider
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Player
+  - vlight
+  - 3D
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer
+    uniqueID: 3787240509
+    locked: 0
+  - name: vlight
+    uniqueID: 1237589767
+    locked: 0

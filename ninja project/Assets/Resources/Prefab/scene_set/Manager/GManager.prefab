@@ -1,0 +1,497 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2602288114526606358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7355744780369769919}
+  - component: {fileID: 717731894754423959}
+  - component: {fileID: 8807909475288061411}
+  m_Layer: 0
+  m_Name: GManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7355744780369769919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2602288114526606358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3109338478610295411}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &717731894754423959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2602288114526606358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd1973d825f0094badc39171b79eff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  get_coin: 0
+  get_word: 
+  title: 0
+  ui_voice: 0
+  voice_volume: 0
+  live_volume: 0
+  walktrg: 1
+  stagegame: 0
+  saytrg: 0
+  ESCtrg: 0
+  over: 0
+  setmenu: 0
+  txtget: 
+  endtitle: 0
+  EventNumber: 0000000000000000000000000000000000000000
+  freenums:
+  - 0
+  - 0
+  pushtrg: 0
+  setrg: -1
+  audioMax: 0.12
+  seMax: 0.08
+  mode: 1
+  isEnglish: 0
+  dashtrg: 0
+  run_number: 0
+  global_grain: 20
+  add_grain: 0
+  reduction: 0
+  ItemID: []
+  itemselect: 0
+  Pstatus:
+    pimage: {fileID: 7648452457097641232, guid: c2705a620209b374498adffd251cd455,
+      type: 3}
+    pname: "\u5FCD\u8005\u86D9\u30CA\u30AC\u30C8\u30CE\u30B1\u30ED"
+    pname2: Ninja Frog
+    pscript: "\u4ED6\u306E\u86D9\u306F\u9A12\u304C\u3057\u3044\u30B2\u30ED\u3002\r\n\u5FCD\u8005\u86D9\u3082\u540C\u3058\u304F\u9CF4\u304D\u58F0\u306F\u3042\u308B\u30B1\u30ED\u304C\u2026\r\n\u4E89\u3044\u306F\u597D\u307E\u305A\u3001\r\n\u52A9\u3051\u3092\u4E5E\u3046\u86D9\u306B\u306F\u7121\u8A00\u3067\u624B\u3092\u5DEE\u3057\u4F38\u3079\u3001\r\n\u5DF1\u306E\u672C\u80FD\u306B\u5C48\u3057\u306A\u3044\u3082\u306E\u3060\u3068\u3044\u3046\u30B2\u30ED\u306B\u3002"
+    pscript2: "The other frogs are noisy.\r\nNinja frogs also croak,\r\n but they
+      don't like to fight,\r\n they silently extend their hands to frogs begging
+      for help,\r\n and they don't give in to their own instincts."
+    maxHP: 3
+    hp: 3
+    speed: 20
+    defense: 0
+    attack: 1
+    Lv: 1
+    maxExp: 5
+    inputExp: 0
+    pobj: {fileID: 0}
+    loadtime: 0
+    maxload: 0
+    changemode: 0
+    getpl: 0
+  effectobj:
+  - {fileID: 8565119659238999119, guid: 9dfecbceea61db9409144ffcb043bd4f, type: 3}
+  animmode: -1
+  Triggers: 0000000000000000000000000000000000000000
+  SceneText: 
+  all_ui:
+  - {fileID: 8667354126174803285, guid: c79ba8c20b190424883871100b113e41, type: 3}
+  - {fileID: 8655045336245674694, guid: 1c9bfb56f16972e438d93f34d4e9b03f, type: 3}
+  - {fileID: 1171581475947910150, guid: fde69db0f34e5e94e8fadd5f8b80ffda, type: 3}
+  - {fileID: 4405051379309030904, guid: 3c86337354f8dc643aefa8c4aceca39c, type: 3}
+  ase: {fileID: 0}
+  sayobjname: 
+  achievementsID:
+  - name: 
+    name2: 
+    script: 
+    script2: 
+    gettrg: 0
+    image: {fileID: 0}
+  mouseP: {x: 0, y: 0, z: 0}
+  StageName:
+  - scene_name: tutorial
+    jp_name: "\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u30B9\u30C6\u30FC\u30B8"
+    en_name: Tutorial stage
+    jp_script: "\u5FCD\u8005\u86D9\u304C\u5FA9\u5E30\u3059\u308B\u5730\u2026\n\u4E89\u3044\u306F\u907F\u3051\u3089\u308C\u306A\u3044\uFF01"
+    en_script: 'The stage of the returning ninja frogs...
+
+      Conflict is inevitable!'
+    target_missionID: 0
+    clear_enemyicon: {fileID: -6411968794090222318, guid: cb79d1a71ce643a4cb78bc37360b43c5,
+      type: 3}
+  - scene_name: stage1
+    jp_name: "\u30B2\u30ED\u30B2\u30ED\u516C\u5712"
+    en_name: Ribbit park
+    jp_script: "\u30B2\u30ED\u30B2\u30ED\u3068\u516C\u5712\u3067\u9CF4\u308A\u97FF\u304F\u2026\n\u4EBA\u9593\u304B\u3089\u3057\u305F\u3089\u9A12\u97F3\u3067\u3057\u304B\u306A\u3044\u3002"
+    en_script: 'Geroge and the ringing in the park...
+
+      From a human point of
+      view, it''s just noise.'
+    target_missionID: 1
+    clear_enemyicon: {fileID: -8023233469168776759, guid: 9ef5771d8909be943a2b7fdfd777df0f,
+      type: 3}
+  all_mission:
+  - jp_missionname: "\u6575\u306E\u98DF\u7CE7\u5EAB\u3092\u72D9\u3048\uFF01"
+    en_missionname: Destroy the enemy's food stores!
+    jp_script: "\u4E89\u3044\u3092\u907F\u3051\u3001\u5F15\u9000\u3057\u3066\u3044\u305F\u5FCD\u8005\u86D9\u2026\u3002\n\u3042\u308B\u65E5\u5DEE\u51FA\u4EBA\u4E0D\u660E\u304B\u3089\u306E\u4F9D\u983C\u3092\u53D7\u3051\u3001\u6226\u3092\u6B62\u3081\u308B\u305F\u3081\u306B\u821E\u3044\u623B\u308B\u3002\n\n\u30AF\u30EA\u30A2\u6761\u4EF6\uFF1A\u30B9\u30C6\u30FC\u30B8\u5185\u306B\u3042\u308B\u3001\u6575\u86D9\u306E\u98DF\u6599\u6E90\u3092\u65AD\u3064\u3053\u3068\u3002"
+    en_script: 'A retired ninja frog returns to the battlefield with a request from
+      an unknown sender.
+
+
+
+      Clear if: To cut off the enemy frogs'' food source
+      in the stage.'
+    outputmission_charanamejp: ????
+    outputmission_charanameen: ????
+    outputmission_charaimage: {fileID: -6548008519882821858, guid: 2a01691a87fedbe4aa6de6f1c0c0f3d4,
+      type: 3}
+    get_missioncoin: 10
+    get_itemid: -1
+    targettrg_id: 3
+    targettrg_num: 2
+    select_checktrg: 1
+    clear_mission: 0
+    scene_name: tutorial
+    maintrg: 1
+    next_mission:
+    - "\u59EB\u86D9\u3092\u6551\u51FA\u305B\u3088\uFF01"
+    - Rescue the princess frog!
+    open_missionID: 1
+    clearevent_scene: say
+  - jp_missionname: "\u59EB\u86D9\u3092\u6551\u51FA\u305B\u3088\uFF01"
+    en_missionname: Rescue the princess frog!
+    jp_script: "\u6B63\u5F0F\u306B\u96C7\u308F\u308C\u3066\u304B\u3089\u306E\u521D\u4EFB\u52D9\u2026\n\u6575\u86D9\u306B\u9023\u308C\u53BB\u3089\u308C\u305F\u59EB\u86D9\u3092\u53D6\u308A\u623B\u3059\u306E\u3060\uFF01\uFF01\uFF01\n\n\u30AF\u30EA\u30A2\u6761\u4EF6.1\uFF1A\u30B9\u30C6\u30FC\u30B8\u5185\u3067\u6355\u3089\u308F\u308C\u3066\u308B\u3001\u59EB\u86D9\u3092\u9023\u308C\u5E30\u308B\u3053\u3068\u3002\n\u30AF\u30EA\u30A2\u6761\u4EF6.2\uFF1A\u6575\u7CBE\u92ED\u90E8\u968A\u306E\u3046\u3061\u3001\u5C11\u306A\u304F\u3068\u30821\u5339\u306F\u5012\u3059\u3002"
+    en_script: 'Your first mission since you were officially hired...
+
+      You
+      must bring back the princess frog that was taken away by the enemy frogs!
+
+
+      Clear
+      if 1: Bring back the princess frogs that are trapped in the stage.
+
+      Clear
+      if 2: Defeat at least one of the enemy elite forces.'
+    outputmission_charanamejp: "\u8ECD\u5E2B\u4E80\u30BB\u30C3\u30AB\u30E1"
+    outputmission_charanameen: Strategist Turtle
+    outputmission_charaimage: {fileID: 21300000, guid: fa0a2564b5a3abb40be0c2a2ed848bf0,
+      type: 3}
+    get_missioncoin: 20
+    get_itemid: -1
+    targettrg_id: 4
+    targettrg_num: 2
+    select_checktrg: 0
+    clear_mission: 0
+    scene_name: stage1
+    maintrg: 1
+    next_mission:
+    - "\u59EB\u86D9\u3092\u6551\u51FA\u305B\u3088\uFF01"
+    - Rescue the princess frog!
+    open_missionID: -1
+    clearevent_scene: say
+  select_mission: 1
+  storyUI: 
+  colTrg: 
+  managerSE:
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 75a77bf3d268b3e4aa1a89e2c373fc9d, type: 3}
+  instantP: []
+  empty_player: 0
+  event_on: 0
+  say_eventID: 0
+  start_enemy: {fileID: 0}
+  parent_runtrg: 0
+  child_runtrg: 0
+  runbgm_starttime: 0
+  all_frog:
+  - jp_name: "\u5FCD\u8005\u86D9\u30CA\u30AC\u30C8\u30CE\u30B1\u30ED"
+    en_name: Ninja Frog
+    jp_script: "\u300C\u9A12\u304C\u3057\u3044\u30B2\u30ED\u2026\r\n\u62D9\u8005\u306F\u58F0\u3092\u6291\u3048\u3001\u5E73\u548C\u3092\u9858\u3044\u3001\u56F0\u3063\u3066\u308B\u86D9\u306E\u305F\u3081\u306B\u30D9\u30ED\u3092\u5DEE\u3057\u4F38\u3079\u3066\u308B\u3068\u3044\u3046\u306E\u306B\u2026\u300D\r\n\n\u4E00\u5EA6\u4E89\u3044\u304B\u3089\u8EAB\u3092\u5F15\u3044\u3066\u3044\u305F\u304C\u3001\r\n\u52A9\u3051\u3092\u6C42\u3081\u3089\u308C\u3066\u518D\u3073\u6226\u5834\u3078\u3068\u821E\u3044\u623B\u3063\u3066\u304D\u305F\u5FCD\u8005\u86D9\u3002\r\n\u58F0\u91CF\u306E\u8ABF\u6574\u306B\u9577\u3051\u3066\u3044\u308B\u3088\u3046\u3060\u3002"
+    en_script: 'A ninja frog who had once stepped back from the fray, but returned
+      to the battlefield when his compatriots asked for his help.
+
+      He seems
+      to be skilled at adjusting his voice volume.'
+    normalhp: 3
+    hardhp: 1
+    easyhp: 5
+    at: 01
+    speed: ??
+    runtime: ??
+    area: ??
+    voice: ??
+    check_trg: 1
+    frog_image: {fileID: 7648452457097641232, guid: c2705a620209b374498adffd251cd455,
+      type: 3}
+  - jp_name: "\u5175\u86D9"
+    en_name: Soldier Frog
+    jp_script: "\u300C\u6211\u3089\u306F\u5175\u3068\u3057\u3066\u6D88\u8CBB\u3055\u308C\u308B\u3060\u3051\u30B2\u30ED\u2026\u300D\r\n\u6575\u86D9\u306E\u4E00\u822C\u5175\u3002\r\n\u5404\u3005\u653B\u6483\u529B\u30FB\u7D20\u65E9\u3055\u30FB\u5224\u5B9A\u3055\u308C\u308B\u58F0\u91CF\u30FB\u9003\u8D70\u6642\u9593\u304C\u9055\u3046\u3002"
+    en_script: "General soldiers of enemy frogs.\nEach of them has different attack
+      power, speed, \njudgment range, judged voice volume, and escape time."
+    normalhp: 1
+    hardhp: 2
+    easyhp: 1
+    at: ??
+    speed: ??
+    runtime: ??
+    area: ??
+    voice: ??
+    check_trg: 0
+    frog_image: {fileID: -509008144674977493, guid: 8b363b2392c82f340a780d2c6507dbf0,
+      type: 3}
+  - jp_name: "\u5C0F\u968A\u9577\u86D9\u30A2\u30DE\u30AE\u30E5\u30E9"
+    en_name: Platoon Leader Frogs
+    jp_script: "\u300C\u7A2E\u3068\u3057\u3066\u6B20\u9665\u304C\u3042\u3063\u305F\u3068\u3057\u3066\u3082\u3001\n\u91CE\u5FC3\u306F\u5909\u308F\u3089\u306A\u3044\u30B2\u30ED\u300D\r\n\n\u8272\u7D20\u304C\u4E00\u90E8\u6B20\u843D\u3057\u3066\u308B\u5C0F\u968A\u9577\u86D9\u3002\r\n\u5175\u86D9\u3088\u308A\u5168\u4F53\u7684\u306B\u30B9\u30C6\u30FC\u30BF\u30B9\u304C\u9AD8\u3044\u3002"
+    en_script: 'A platoon leader frog that lacks some pigmentation.
+
+      Overall
+      higher status than soldier frogs.'
+    normalhp: 2
+    hardhp: 3
+    easyhp: 1
+    at: 01
+    speed: 40
+    runtime: 60
+    area: 18
+    voice: 45
+    check_trg: 0
+    frog_image: {fileID: 8092627020442004030, guid: 61d2da58af2f42b4a9db4ace0f89d7f0,
+      type: 3}
+  - jp_name: "\u7CBE\u92ED\u86D9\u30A6\u30B7\u30B7"
+    en_name: Elite frog Cow
+    jp_script: "\u300C\u6575\u306E\u653B\u6483\u3092\u8010\u3048\u3066\u3053\u305D\u306E\u5175\u30B2\u30ED\u300D\r\n\n\u6575\u7CBE\u92ED\u90E8\u968A\u306B\u5C5E\u3057\u3066\u3044\u308B\u86D9\u3002\r\n\u4ED6\u306E\u86D9\u306B\u6BD4\u3079\u3066\u4F53\u529B\u304C\u591A\u304F\u3001\n\u5012\u3059\u306B\u306F\u4F55\u5EA6\u3082\u7A81\u6483\u3059\u308B\u5FC5\u8981\u304C\u3042\u308B\u3002"
+    en_script: "A frog belonging to an elite unit.\nIt has more physical strength
+      than other frogs\n and cannot be defeated by ordinary attacks."
+    normalhp: 4
+    hardhp: 5
+    easyhp: 3
+    at: 01
+    speed: 40
+    runtime: 30
+    area: 16
+    voice: 50
+    check_trg: 0
+    frog_image: {fileID: -2323240646242233241, guid: 3f2cca3abe3612646a091657531c9b19,
+      type: 3}
+  - jp_name: "\u7CBE\u92ED\u86D9\u30C1\u30A8\u30EB"
+    en_name: Elite frog Brain
+    jp_script: "\u300C\u773C\u3067\u6575\u3092\u6349\u3048\u3001\u5473\u65B9\u306B\u4F1D\u9054\u3059\u308B\u2026\r\n\u305D\u308C\u304C\u6211\u306E\u5F79\u76EE\u30B2\u30ED\u300D\r\n\r\n\u6575\u7CBE\u92ED\u90E8\u968A\u306B\u5C5E\u3057\u3066\u3044\u308B\u86D9\u3002\r\n\u63A2\u77E5\u7BC4\u56F2\u304C\u534A\u5F84\u86D930\u5339\u5206\u3068\u5E83\u304F\u3001\r\n\u898B\u3064\u3051\u308B\u3053\u3068\u306B\u7279\u5316\u3057\u3066\u3044\u308B\u3002"
+    en_script: "A frog belonging to an elite enemy unit.\nHis detection range is
+      as wide as a radius of 30 frogs, \nIt specializes in finding them."
+    normalhp: 2
+    hardhp: 3
+    easyhp: 1
+    at: 01
+    speed: 42
+    runtime: 30
+    area: 30
+    voice: 40
+    check_trg: 0
+    frog_image: {fileID: -6347895483025266532, guid: 5eaca9ef0690cd2458985ca178511b79,
+      type: 3}
+  - jp_name: "\u8ECD\u5E2B\u4E80\u30BB\u30C3\u30AB\u30E1"
+    en_name: Strategist Turtle
+    jp_script: "\u300C\u529B\u304C\u7121\u304F\u3068\u3082\u77E5\u6075\u304C\u3042\u308B\u30AB\u30E1\u3002\r\n\u6226\u6CC1\u304B\u3089\u6700\u5584\u306E\u6307\u793A\u3092\u3059\u308B\u306E\u304C\u543E\u8F29\u306E\u4ED5\u4E8B\u300D\r\n\r\n\u5C06\u8ECD\u86D9\u30E8\u30B7\u30B2\u30ED\u306B\u4ED5\u3048\u308B\u4E80\u3002\r\n\u5C06\u8ECD\u3078\u306E\u5FE0\u8AA0\u5FC3\u304C\u5F37\u304F\u3001\u30B5\u30DD\u30FC\u30C8\u306B\u5FB9\u3057\u3066\u3044\u308B\u3002"
+    en_script: 'A tortoise in the service of King Frog.
+
+      He is very loyal to
+      the Shogun and provides support.'
+    normalhp: 4
+    hardhp: 4
+    easyhp: 4
+    at: 01
+    speed: ??
+    runtime: ??
+    area: ??
+    voice: ??
+    check_trg: 0
+    frog_image: {fileID: 21300000, guid: fa0a2564b5a3abb40be0c2a2ed848bf0, type: 3}
+  - jp_name: "\u59EB\u86D9\u30EC\u30A4\u30B1\u30ED"
+    en_name: Princess Frog
+    jp_script: "\u300C\u30EF\u30BF\u30B7\u81EA\u8EAB\u304C\u975E\u529B\u3060\u3068\u3057\u3066\u3082\u30B1\u30ED\u2026\r\n\u59EB\u86D9\u3068\u3057\u3066\u6C11\u86D9\u306B\u5C3D\u304F\u3057\u307E\u3059\u308F\u300D\r\n\r\n\u7E04\u5F35\u308A\u4E89\u3044\u306E\u4EA4\u6E09\u6750\u6599\u3068\u3057\u3066\u3001\u6575\u86D9\u306B\u56DA\u308F\u308C\u3066\u3044\u305F\u59EB\u86D9\u3002\r\n\u5FCD\u8005\u86D9\u306B\u3088\u3063\u3066\u6551\u51FA\u3055\u308C\u3066\u304B\u3089\u306F\u3001\u597D\u610F\u3092\u62B1\u3044\u3066\u3044\u308B\u2026\uFF1F"
+    en_script: "A princess frog was captured by enemy frogs as\r\n a bargaining chip
+      in a territorial dispute.\r\nAfter being rescued by the ninja frogs,\r\n she
+      has developed a liking for them...?"
+    normalhp: 1
+    hardhp: 1
+    easyhp: 1
+    at: 00
+    speed: ??
+    runtime: ??
+    area: ??
+    voice: ??
+    check_trg: 0
+    frog_image: {fileID: -4194079391495951926, guid: 0419f8fab2505814a80a03d0072d2761,
+      type: 3}
+  - jp_name: "\u5C06\u8ECD\u86D9\u30E8\u30B7\u30B2\u30ED"
+    en_name: King Frog
+    jp_script: "\u300C\u904E\u53BB\u306E\u6628\u65E5\u3082\u3001\u672A\u6765\u306E\u660E\u65E5\u3082\u308F\u304B\u3089\u306A\u3044\u2026\r\n\u4EBA\u751F\u306F\u4ECA\u3053\u306E\u77AC\u9593\u3057\u304B\u306A\u3044\u30B2\u30ED\u300D\r\n\r\n\u65E5\u3005\u7E04\u5F35\u308A\u4E89\u3044\u306E\u305F\u3081\u306B\u8EAB\u3092\u6367\u3052\u3066\u3044\u308B\u5C06\u8ECD\u86D9\u3002\r\n\u6226\u6CC1\u304C\u52A3\u52E2\u306B\u306A\u308A\u3001\u6700\u5F8C\u306E\u751F\u304D\u6B8B\u308A\u3067\u3042\u308B\u5FCD\u8005\u86D9(\u4E3B\u4EBA\u516C)\u3078\u52A9\u3051\u3092\u6C42\u3081\u305F\u3002\r\n\u2026\r\n\u5F8C\u306B\u6700\u60AA\u306E\u672A\u6765\u304C\u5F85\u3063\u3066\u3044\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u3002"
+    en_script: "King frog devotes himself to turf wars on a daily basis.\r\nWhen
+      the war situation became unfavorable, he asked for help from the last survivor,
+      Ninja Frog (the protagonist).\r\n\r\nThe worst future may await him later\u2026?"
+    normalhp: 6
+    hardhp: 6
+    easyhp: 6
+    at: 02
+    speed: ??
+    runtime: ??
+    area: ??
+    voice: ??
+    check_trg: 0
+    frog_image: {fileID: 21300000, guid: 5208089c8aacf2c44b0ab3a6ad766a65, type: 3}
+  coinobj: {fileID: 1210264181171968055, guid: 6fb123d953e85c94aa9dbd4227556112, type: 3}
+  daycount: "2023\u5E74 4\u67081\u65E5"
+  shopitems:
+  - shopitem_name:
+    - "\u98DF\u7528\u877F"
+    - Flesh fly
+    shopitem_script:
+    - "\u98DF\u3079\u308C\u3070\u98DF\u3079\u308B\u7A0B\u6700\u5927HP\u304C\u5897\u3048\u308B\u3002\n(\u6700\u5927\u8CFC\u5165Lv5\u307E\u3067)"
+    - "The more you eat, the more your\n maximum HP increases.\n(Maximum purchase
+      lvl 5)"
+    shopitem_image: {fileID: 21300000, guid: f71999d6ae846c24787dd1e1b6ef87d3, type: 3}
+    shopitem_eventid: 0
+    shopitem_lv: 0
+    shopitem_maxlv: 5
+    shopitem_startprice: 4
+  - shopitem_name:
+    - "\u30B4\u30ED\u30C4\u30AD\u77F3"
+    - Massive stone
+    shopitem_script:
+    - "\u6301\u3066\u3070\u6301\u3064\u7A0B\u6BCE\u30B9\u30C6\u30FC\u30B8\u6575\u306E\u653B\u6483\u9632\u3044\u3067\u304F\u308C\u308B\u3002\n(\u6700\u5927\u8CFC\u5165Lv3\u307E\u3067)"
+    - "The more you have, the more it\n prevents enemy attacks.\n(1 protection per
+      purchase lvl. 1)"
+    shopitem_image: {fileID: 4237310540275773567, guid: 85116d4794e5ebd498d043e6c7542e16,
+      type: 3}
+    shopitem_eventid: 1
+    shopitem_lv: 0
+    shopitem_maxlv: 3
+    shopitem_startprice: 10
+  - shopitem_name:
+    - "\u58F0\u91CF\u8ABF\u6574\u85AC<\u30DE\u30A4\u30CA\u30B9>"
+    - Voice volume regulator<minus>
+    shopitem_script:
+    - "\u98F2\u3080\u5EA6\u306B\u3001\u767A\u3059\u308B\u58F0\u91CF\u304C4\u30B2\u30ED\u4E0B\u304C\u308B\u3002"
+    - "Every time you drink,\n the volume of voice you\n emit drops by 5 ribbit."
+    shopitem_image: {fileID: 21300000, guid: b7f77607c82ea4142a2070c0e37e1756, type: 3}
+    shopitem_eventid: 2
+    shopitem_lv: 0
+    shopitem_maxlv: -1
+    shopitem_startprice: 8
+  - shopitem_name:
+    - "\u58F0\u91CF\u8ABF\u6574\u85AC<\u30D7\u30E9\u30B9>"
+    - Voice volume regulator<plus>
+    shopitem_script:
+    - "\u98F2\u3080\u5EA6\u306B\u3001\u767A\u3059\u308B\u58F0\u91CF\u304C4\u30B2\u30ED\u4E0A\u304C\u308B\u3002"
+    - 'Every time you drink,
+
+      the volume of the voice
+
+      you emit goes
+      up 5 ribbit.'
+    shopitem_image: {fileID: 21300000, guid: 117b17facff65dc42b1b57deb7c21551, type: 3}
+    shopitem_eventid: 3
+    shopitem_lv: 0
+    shopitem_maxlv: -1
+    shopitem_startprice: 8
+  day_shopitemID: 000000000100000002000000
+  temp_shopitemID: ffffffffffffffffffffffff
+  rock_num: 0
+--- !u!114 &8807909475288061411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2602288114526606358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6759a7df4a7af954baa28ac101831b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frame_num: 60
+--- !u!1001 &4830276275288305726
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7355744780369769919}
+    m_Modifications:
+    - target: {fileID: 6946855570882528016, guid: 1731c0ceab41ad445889231ed4750fe1,
+        type: 3}
+      propertyPath: m_Name
+      value: soundM
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506938115874576973, guid: 1731c0ceab41ad445889231ed4750fe1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506938115874576973, guid: 1731c0ceab41ad445889231ed4750fe1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506938115874576973, guid: 1731c0ceab41ad445889231ed4750fe1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506938115874576973, guid: 1731c0ceab41ad445889231ed4750fe1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506938115874576973, guid: 1731c0ceab41ad445889231ed4750fe1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506938115874576973, guid: 1731c0ceab41ad445889231ed4750fe1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506938115874576973, guid: 1731c0ceab41ad445889231ed4750fe1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506938115874576973, guid: 1731c0ceab41ad445889231ed4750fe1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506938115874576973, guid: 1731c0ceab41ad445889231ed4750fe1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506938115874576973, guid: 1731c0ceab41ad445889231ed4750fe1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506938115874576973, guid: 1731c0ceab41ad445889231ed4750fe1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1731c0ceab41ad445889231ed4750fe1, type: 3}
+--- !u!4 &3109338478610295411 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7506938115874576973, guid: 1731c0ceab41ad445889231ed4750fe1,
+    type: 3}
+  m_PrefabInstance: {fileID: 4830276275288305726}
+  m_PrefabAsset: {fileID: 0}
